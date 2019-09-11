@@ -36,7 +36,9 @@ header>h1 {
     align-items: center;
     margin-right: 10px;
     background-color: bisque;
-    border: 6px solid beige;
+    border: 4px solid white;
+    border-radius: 5%;
+    transition: all 0.3s ease;
 }
 
 .line-in-middle {
@@ -50,27 +52,39 @@ header>h1 {
             transparent calc(50% + 21px),
             transparent 100%);
 }
-
+.disk:hover{
+    cursor: pointer;
+    border:  5px solid greenyellow ;
+}
 #disk1 {
     background-color: aquamarine;
     width: 90%;
     height: 50px;
 }
-
+#disk1:hover{
+    box-shadow: 0 0 10px #31b43a ;
+}
 #disk2 {
     background-color: rgb(197, 214, 166);
     width: 75%;
     height: 50px;
 }
-
+#disk2:hover{
+    box-shadow: 0 0 10px #fcfdfc ;
+}
 #disk3 {
     background-color: rgb(204, 124, 20);
     width: 50%;
     height: 50px;
 }
-
+#disk3:hover{
+    box-shadow: 0 0 10px #d49f0b ;
+}
 #disk4 {
-    background-color: rgb(2, 233, 79);
+    background-color: rgb(79, 144, 218);
     width: 25%;
     height: 50px;
+}
+#disk4:hover{
+    box-shadow: 0 0 10px #04d1c7 ;    
 }
